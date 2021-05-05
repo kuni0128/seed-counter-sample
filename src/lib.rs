@@ -1,3 +1,5 @@
+#![allow(clippy::wildcard_imports)]
+
 use seed::{prelude::*, *};
 
 fn init(_: Url, _: &mut impl Orders<Msg>) -> Model {
